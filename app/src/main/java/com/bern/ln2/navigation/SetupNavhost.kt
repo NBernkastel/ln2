@@ -1,12 +1,12 @@
-package com.bern.ln2.ui.theme.navigation
+package com.bern.ln2.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.bern.ln2.ui.theme.screens.MainScreen
-import com.bern.ln2.ui.theme.screens.SplashScreen
-import com.bern.ln2.ui.theme.utils.Constants
+import com.bern.ln2.screens.MainScreen
+import com.bern.ln2.screens.SplashScreen
+import com.bern.ln2.utils.Constants
 
 sealed class Screens(val route:String){
     object Splash : Screens(route = Constants.Screens.SPLASH_SCREEN)

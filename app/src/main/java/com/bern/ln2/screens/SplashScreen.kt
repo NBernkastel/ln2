@@ -1,4 +1,4 @@
-package com.bern.ln2.ui.theme.screens
+package com.bern.ln2.screens
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -18,8 +18,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import com.bern.ln2.ui.theme.Ln2Theme
-import com.bern.ln2.ui.theme.navigation.Screens
-import com.bern.ln2.ui.theme.utils.Constants
+import com.bern.ln2.navigation.Screens
+import com.bern.ln2.utils.Constants
 import kotlinx.coroutines.delay
 
 @Composable

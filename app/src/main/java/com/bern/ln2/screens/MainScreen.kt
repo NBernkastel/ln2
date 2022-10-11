@@ -1,4 +1,4 @@
-package com.bern.ln2.ui.theme.screens
+package com.bern.ln2.screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Surface

@@ -1,4 +1,4 @@
-package com.bern.ln2.ui.theme.utils
+package com.bern.ln2.utils
 
 class Constants {
     object Screens{
